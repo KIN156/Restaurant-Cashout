@@ -8,9 +8,11 @@ function calculateTotal() {
 			var salesTotal = totalSales - total;
             var salesCommission = totalSales * 0.04;
             var payableAmount = salesTotal + salesCommission;
-			document.getElementById("total").innerHTML =  total.toFixed(2);
-            document.getElementById("total-sales-value").innerHTML = totalSales.toFixed(2);
-            document.getElementById("total-totalsales").innerHTML= salesTotal.toFixed(2);
-            document.getElementById("sales-commission").innerHTML = salesCommission.toFixed(2);
-            document.getElementById("payable-amount").innerHTML = payableAmount.toFixed(2);
+			document.getElementById("etc").innerHTML =  total.toFixed(2);
+            document.getElementById("ts").innerHTML = totalSales.toFixed(2);
+			document.getElementById("ltc").innerHTML = total.toFixed(2);
+            document.getElementById("etca").innerHTML= salesTotal.toFixed(2);
+            document.getElementById("housetip").innerHTML = salesCommission.toFixed(2);
+            document.getElementById("lastamount").innerHTML = payableAmount.toFixed(2);
 		}
+
