@@ -6,7 +6,7 @@ function calculateTotal() {
 			var totalSales = parseFloat(document.getElementById("total-sales").value);
 			var total = value1 + value2 + value3 + value4;
 			var salesTotal = totalSales - total;
-            var salesCommission = totalSales * 0.04;
+            var salesCommission = totalSales * 0.045;
             var payableAmount = salesTotal + salesCommission;
 			document.getElementById("etc").innerHTML =  total.toFixed(2);
             document.getElementById("ts").innerHTML = totalSales.toFixed(2);
